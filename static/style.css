@@ -1,0 +1,78 @@
+#tickers-grid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Para el input (caja de texto) */
+input[type="text"] {
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 5px; /* Añadir un poco de espacio dentro de la caja */
+    border: 1px solid #333; /* Mantener el borde visible */
+}
+
+/* Para el botón */
+button {
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 5px 10px; /* Añadir espacio interno al botón */
+    border: 1px solid #333; /* Mantener el borde visible */
+    background-color: #eee; /* Color de fondo */
+    cursor: pointer; /* Cambia el cursor cuando pasa sobre el botón */
+}
+
+.stock-box {
+    display: flex;
+    margin: 10px;
+    border: 1px solid #ddd; /* visibilidad de los contenedores */
+    border-radius: 10px; /* bordes redondeados en el contenedor */
+    padding: 5px; /* espaciado interno */
+    background-color: #f9f9f9; /* Opcional, color de fondo del contenedor */
+}
+
+.stock-info {
+    display: inline-flex; /* Cambiado de flex a inline-flex */
+    flex-direction: column; /* Asegura que el contenido esté en columna */
+    margin-right: 15px; /* Elimina el margen derecho */
+    padding: 5px; /* Espacio dentro del borde de la caja de información del stock */
+}
+
+.chart-container {
+    flex: 1;
+    display: flex;
+}
+
+
+.dark-red{
+    color: #880000;
+}
+
+.red{
+    color: #FF0000;
+}
+
+.gray{
+    color: #808080;
+}
+
+.green {
+    color: #00BB00;
+}
+
+.dark-green{
+    color: #006600;
+}
+
+.red-flash{
+    transition: background-color 1s;
+    background-color: #ffcccc !important; 
+}
+
+.green-flash{
+    transition: background-color 1s;
+    background-color: #ccffcc !important; 
+}
+
+.gray-flash{
+    transition: background-color 1s;
+    background-color: #ccc !important;  
+}
