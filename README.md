@@ -62,7 +62,7 @@ Abre tu navegador web y ve a https://davases22.pythonanywhere.com/
 Cómo Utilizar la Aplicación
 
 Al abrir el [App web](https://davases22.pythonanywhere.com/) se encontrará con la siguiente interfáz:
-<img src="git_img/inicial.png" alt="Logo del Proyecto" width="555">
+<img src="git_img/inicial.png" alt="Logo del Proyecto" width="755">
 
 Puede adicionar el título de la o las acciones que desee como AAPL (Apple) y BA (The Boeing Company) para ver su información:
 <img src="git_img/NEUTRAL.png" alt="Logo del Proyecto" width="555">
@@ -72,7 +72,7 @@ La app cada vez que se actualice se coloreará rojo, verde o gris dependiendo de
 <img src="git_img/VERDE-ROJO.png" alt="Logo del Proyecto" width="555">
 
 También puede visualizar el contenido en dispositivos móviles:
-<img src="git_img/iPhone.png" alt="Logo del Proyecto" width="555">
+<img src="git_img/iPhone.png" alt="Logo del Proyecto" width="755">
 
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
